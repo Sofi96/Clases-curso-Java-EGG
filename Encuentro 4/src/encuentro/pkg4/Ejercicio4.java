@@ -25,6 +25,7 @@ public class Ejercicio4 {
         C=leer.nextDouble();
         double F=32+(9*C/5);
         System.out.println("Esa cantidad de ºC equivalen a: " + F + "Farhenheit");
+        
     }
     
 }
