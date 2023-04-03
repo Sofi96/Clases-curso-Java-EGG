@@ -34,16 +34,15 @@ public class Circunferencia {
     
 //MÉTODOS PROPIOS:
 
-    public void crearCircunferencia() {
-        
-        System.out.println("Ingrese el radio");
-        double rd= leer.nextDouble();
-        rd=radio;
-      
-    }
+    
     public double area (){
         
         double area= 3.14 * (Math.pow(radio, 2));
         return area;
+    }
+    public double perimetro () {
+        
+        double perimetro= 2*3.14*radio;
+        return perimetro;
     }
 }
